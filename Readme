@@ -1,0 +1,6 @@
+portproxy add v4tov4 listenport=19000 connectport=19000 connectaddress=172.22.185.52
+netsh interface portproxy add v4tov4 listenport=19001 connectport=19001 connectaddress=172.22.185.52
+netsh interface portproxy add v4tov4 listenport=19002 connectport=19002 connectaddress=172.22.185.52
+
+
+expo start --tunnel
